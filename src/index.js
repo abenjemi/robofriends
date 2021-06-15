@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Hello from './Hello';
 import reportWebVitals from './reportWebVitals';
+import 'tachyons';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Hello aminee={"this is amine"}/>
+
   </React.StrictMode>,
+  // <p>HELLOOOOO</p>,
   document.getElementById('root')
 );
 
